@@ -1,0 +1,518 @@
+/*Font*/
+body {
+	margin: 0;
+	padding: 0;
+	margin-top: -40px;
+}
+
+
+h1 {
+	font-family: 'DELIRIUM NEON NCV';
+	font-size: 120px;
+}
+
+h2 {
+	font-family: 'Elephant', cursive;
+	font-size: 30px;
+}
+
+p {
+	font-family: 'Elephant', cursive;
+	font-size: 20px;
+}
+
+:selection {
+	background: #ffc600;
+}
+
+/*============================================================================================================================================*/
+/* Header */
+
+header {
+	margin: 0;
+	width: 100%;
+	height: 120px;
+	padding: 0;
+	background-color: #333333;
+	text-shadow: 3px 2px #66ffff;
+}
+
+
+.backTop {
+	width: 75px;
+	height: 25px;
+	border-radius: 3px 0px 0px 3px;
+	padding: 5px 0px 0px 10px;
+	float: right;
+	position: fixed;
+	bottom: 100px;
+	right: 0px;
+	background-color: #66ffff;
+	z-index: 1;
+}
+
+.backTop-btn a {
+	text-decoration: none;
+	color: #333333;
+	font-family: 'Elephant', cursive;
+	font-size: 14px;
+
+}
+
+#mainNav {
+	float: right;
+	display: inline-block;
+	height: 75px;
+	padding: 45px 45px 30px 30px;
+	text-align: center;
+	position: relative;
+}
+
+
+#mainNav a {
+	text-decoration: none;
+	color: white;
+	font-family: 'Elephant', cursive;
+	font-weight: lighter;
+	font-size: 21px;
+	text-transform: lowercase;
+	display: inline-block;
+	width: 125px;
+	border-radius: 3px;
+	transition: all 0.3s ease;
+	text-transform: uppercase;
+	text-shadow: none;
+}
+
+#mainNav a:hover {
+	background-color: #66ffff;				/*baby-blue*/
+	color: #333333;   						/*dark gray*/
+	border: 3px solid #F6FDFD; 
+}
+
+/*===============================================================================================================================================*/
+/* Shop [1]*/
+
+#shop {
+	width: 100%;
+	height: 650px;
+	position: relative;
+	overflow: auto;
+}
+
+.wtops {
+	background: url("img/light_colored_tank_aa.jpg") center top no-repeat;
+	display: inline-block;
+	width: 400px;
+	height: 630px;
+	text-align: center;
+	font-family: 'Elephant', cursive;
+	font-size: 40px;
+	position: relative;
+	border-radius: 8px;
+}
+
+
+.wbottoms {
+	background: url("img/f_blue_leggings.jpg") center center no-repeat;
+	display: inline-block;
+	width: 400px;
+	height: 630px;
+	text-align: center;
+	font-family: 'Elephant', cursive;
+	font-size: 40px;
+	position: relative;
+	border-radius: 8px;
+}
+
+.wsportsbras {
+	background: url("img/back_sports_bra_edit.jpg") center center no-repeat;
+	display: inline-block;
+	width: 400px;
+	height: 630px;
+	text-align: center;
+	font-family: 'Elephant', cursive;
+	font-size: 40px;
+	position: relative;
+	border-radius: 8px;
+}
+
+.fgadgets {
+	background: url("img/gadgets.jpg") center center no-repeat;
+	display: inline-block;
+	width: 400px;
+	height: 630px;				 
+	text-align: center;
+	font-family: 'Elephant', cursive;
+	font-size: 40px;
+	position: relative;
+	border-radius: 8px;
+}
+
+.merchBtn {
+	border-radius: 3px;
+	width: 150px;
+	border: 3px solid #ffffff;
+	display: inline-block;
+	text-align: center;
+	text-decoration: none;
+	color: #333333;
+	font-size: 20px;
+	font-weight: bold;
+	padding: 10px 20px 10px 20px;
+	background-color: rgba(255, 255, 255, 0.4);
+	transition: all 0.3s ease;
+	position: relative;
+	top: 80%
+}
+
+.merchBtn:hover {
+	background-color: rgba(102, 255, 255, 0.39);
+	border: 3px solid ##F6FDFD; 
+}
+
+/*#new {
+	clear: both;
+	width: 100%;
+	height: 400px;
+	padding: 0px 0px 0px 0px;
+	position: relative;
+	background-color: white;
+}
+
+.h {
+	width: 100%;
+	height: 0px;
+	background-color: white;
+	text-align: center;
+}
+
+.s {
+	background: url("img/rock_climbing_edit.jpg") center center no-repeat;
+	width: 25%;
+	height: 500px;
+	float: left;
+	text-align: center;
+	font-family: 'Elephant', cursive;
+	font-size: 10px;	
+}
+
+.n {
+	background: url("leapord_tank_edit") center center no-repeat;
+	width: 25%;
+	height: 500px;
+	float: left;
+	text-align: center;
+	font-family: 'Elephant', cursive;
+	font-size: 10px;
+}
+
+.c {
+	background: url("img/HELP-ME_WOMENS.jpg") center center no-repeat;
+	width: 25%;
+	height: 500px;
+	float: left;
+	text-align: center;
+	font-family: 'Elephant', cursive;
+	font-size: 10px;
+
+}
+
+.e {
+	background: url("img/womens_select_large.jpg") center center no-repeat;
+	width: 25%;
+	height: 500px;
+	float: left;
+	text-align: center;
+	font-family: 'Elepha*//*nt', cursive;
+	font-size: 10px;
+}
+
+/*.o {
+	background: url("img/SelectsW_1_large.jpg") center center no-repeat;
+	width: 20%;
+	height: 500px;
+	float: left;
+	text-align: center;
+	font-family: 'Elephant', cursive;
+	font-size: 10px;
+}*/
+ 
+ /*==============================================================================================================================================*/
+/* New Arrivals with slideshow*/
+
+body,html {
+	width:100%;
+	height:100%;
+}
+body:after {
+	position:absolute;
+	content:"";
+	width:100%;
+	height:100%;
+/* background-attachment:fixed;	background:url('https://1.bp.blogspot.com/-gsYQQFPG-Jg/T2iJKuncYxI/AAAAAAAAA5w/D91ZfG4wBAM/s1600/Grass_and_Blurred_Bokeh_Lights_HD_Nature_Wallpaper.jpg');
+*/	background-size:cover;
+	-webkit-filter: blur(5px);
+    -moz-filter: blur(5px);
+    -o-filter: blur(5px);
+    -ms-filter: blur(5px);
+    filter: blur(5px);
+	top:0;
+	left:0;
+	z-index:-1;
+}
+
+.container {
+	width:2191px;
+	height:100%;
+	margin:0 auto;
+	position:relative;
+	overflow-x:hidden;
+}
+
+.slide {
+	position:absolute;
+	white-space:nowrap;
+	height:100%;
+	width:100%;
+	top:20px;
+	bottom:-8x;
+	left:100%;
+	right:0;
+	margin:auto;
+	-webkit-animation:slide 80s linear infinite;
+	-moz-animation:slide 80s linear infinite;
+	-o-animation:slide 80s linear infinite;
+	-ms-animation:slide 80s linear infinite;
+	animation:slide 80s linear infinite;
+}
+
+@-webkit-keyframes slide {
+	100% {
+		left:-7000px;}
+}
+
+@-moz-keyframes slide {
+	100% {
+		left:-7000px;}
+}
+
+@-o-keyframes slide {
+	100% {
+		left:-7000px;}
+}
+
+@-ms-keyframes slide {
+	100% {
+		left:-7000px;}
+}
+
+@keyframes slide {
+	100% {
+		left:-7000px;}
+}
+
+.slide .box{
+	width:550px;
+	height:550px;
+	text-align:center;
+	margin:0 20px;
+	display:inline-block;
+	background:rgba(233,233,234,.5);
+}
+
+.slide .box p{
+	font-family:'Elephant';
+}
+
+.slide .box p a{
+	color:#000;
+}
+
+.control{
+	position:absolute;
+	left:-100%;
+	top:-100%;
+}
+
+.c_st{
+	width:200px;
+	height:80px;
+	background:rgba(233,233,234,.5);
+	font-family:lobster;
+	font-size:28px;
+	color:#000;
+	position:absolute;
+	cursor:pointer;
+	z-index:3;
+	bottom:0;
+	left:0;
+	right:0;
+	margin:auto;
+	text-align:center;
+}
+
+.control:checked + label + .slide{
+	-webkit-animation-play-state:paused;
+	-moz-animation-play-state:paused;
+	-o-animation-play-state:paused;
+	-ms-animation-play-state:paused;
+	animation-play-state:paused;
+}	
+
+/*#new {
+	width: 100%;
+	background-color: #333333;
+	position: relative;
+}
+.newarrivals {
+	background-color: pink;
+	height: 500px;
+	width: 100%;
+	float: left;
+	text-align: center;
+	font-family: 'Baloo Bhai', cursive;
+	position: relative
+	}
+
+/*===============================================================================================================================================*/
+/*sales [2]*/
+
+/*#sale {
+	clear: both;														// Sale Itmes (big time sale...30% off [picture])
+	width: 100%;
+	height: 460px;
+	padding: 30px 0px 30px 0px;
+	position: relative;
+	background-color: white;
+}
+
+.sale-text {
+	width: 75%;
+	height: 400px;
+	margin: 0px auto 0px auto;
+	padding: 30px;
+	background: url("img/three_images.jpg");
+	border-radius: 3px;
+	position: relative;
+	text-align: left;
+	font-family: 'Elephant', cursive;
+	color: #66ffff;
+}*/
+
+/*===============================================================================================================================================*/
+/*Contact, Newsletter, FAQs*/
+
+#contactsocialnews {
+	clear: both;
+	width: 100%;
+	height: 300px;
+	padding: 0px 0px 0px 0px;
+	position: relative;
+	background-color: white;
+}
+
+.social {
+	background-color: white;
+	width: 32%;
+	height: 250px;
+	float: left;
+	text-align: center;
+	font-family: 'Elephant', cursive;
+	font-size: 40px;
+	border-right: groove;
+}
+
+.newsletter {
+	background-color: white;
+	width: 33.5%;
+	height: 250px;
+	float: left;
+	text-align: center;
+	font-family: 'Elephant', cursive;
+	font-size: 10px;
+	border-right: groove;
+}
+
+.contact {
+	background-color: white;
+	width: 33.5%;
+	height: 250px;
+	float: left;
+	text-align: center;
+	font-family: 'Elephant', cursive;
+	font-size: 10px;
+}
+
+/*==============================================================================================================================================*/
+/*Footer*/
+
+footer {
+	width: 100%;
+	height: 240px;
+	position: relative;
+	padding:;
+	color: red;
+	text-align: center;
+	background-color: #333333;
+}
+
+.copyRight {
+	width: 100%;
+	color: white;
+	float: left;
+	font-size: 10px;
+	padding: 0px 0px 0px 0px;
+	position: relative;
+	top: 23%;
+	background-color: #333333;
+}
+
+.copyRight a {hover 
+	text-decoration: none;
+	color: #66ffff;
+}
+
+.copyRight a:hover {
+	color: #66ffff;
+}
+
+/*.soc-buttons {
+	height: 60px;
+	padding: 0px 20px 0px 20px;
+	position: relative;
+	float: left;
+}
+
+span.icon a:link {
+	display: block;
+	text-indent: -9999px;
+}
+
+span.insta-button a:link {
+	width: 30px;
+	height: 30px;
+	background: url("img/instagram_icon.png") no-repeat;
+	transition: all 0.2s ease;
+	float:left;
+	padding: 0px 5px 0px 5px;
+}
+
+span.insta-button a:hover {
+	background-position: 0px -30px;
+	overflow: hidden;
+}
+
+span.twitter-button a:link {
+	width: 30px;
+	height: 30px;
+	background: url("img/twitter_icon.png")no-repeat;
+	transition: all 0.2s ease;
+	float: left;
+	padding: 0px 5px 0px 5px;
+}
+
+span.twitter-button a:hover {
+	background-position: 0px -30px;
+	overflow: hidden;
+}
