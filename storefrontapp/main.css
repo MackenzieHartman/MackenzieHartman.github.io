@@ -3,6 +3,9 @@ body {
 	margin: 0;
 	padding: 0;
 	margin-top: -40px;
+	overflow-x: hidden;
+	width:100%l;
+	height:100%;
 }
 
 
@@ -98,6 +101,7 @@ header {
 	height: 650px;
 	position: relative;
 	overflow: auto;
+	margin-left: 1%;
 }
 
 .wtops {
@@ -414,7 +418,7 @@ body:after {
 
 .social {
 	background-color: white;
-	width: 32%;
+	width: 25%;
 	height: 250px;
 	float: left;
 	text-align: center;
@@ -425,7 +429,7 @@ body:after {
 
 .newsletter {
 	background-color: white;
-	width: 33.5%;
+	width: 25%;
 	height: 250px;
 	float: left;
 	text-align: center;
@@ -436,7 +440,7 @@ body:after {
 
 .contact {
 	background-color: white;
-	width: 33.5%;
+	width: 25%;
 	height: 250px;
 	float: left;
 	text-align: center;
@@ -449,7 +453,7 @@ body:after {
 
 footer {
 	width: 100%;
-	height: 240px;
+	height: 200px;
 	position: relative;
 	padding:;
 	color: red;
@@ -516,3 +520,6 @@ span.twitter-button a:hover {
 	background-position: 0px -30px;
 	overflow: hidden;
 }
+
+
+
